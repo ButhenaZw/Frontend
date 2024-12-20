@@ -1,0 +1,66 @@
+.main{
+    display: grid;
+    grid-template-rows: repeat(1,500px);
+    color: white;
+
+}
+.main .paragraph{
+    display: grid;
+    grid-template-columns: repeat(3,320px);
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 360px;
+    
+
+}
+.main .paragraph div{
+    padding: 39px;
+    font-size: 15px;
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+.first{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Big Shoulders Display", serif;
+}
+button{
+    background:none;
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid  hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 30px;
+    font-family: "Lexend Deca", serif;
+    padding-right: 30px;
+    position: relative;
+    top: 124px;
+    left: 50px;
+
+}
+.button2{
+    background:none;
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid  hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 30px;
+    font-family: "Lexend Deca", serif;
+    padding-right: 30px;
+    position: relative;
+    top: 103px;
+    left: 50px;
+
+}
